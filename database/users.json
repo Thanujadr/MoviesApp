@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Thanu",
+      "email": "thanujathanut@gmail.com",
+      "phoneno": "7337649197",
+      "age": "23",
+      "password": "thanu@123"
+    },
+    {
+      "name": "Thulsi",
+      "email": "thulsi@gmail.com",
+      "phoneno": "9148709517",
+      "age": "24",
+      "password": "thulsi@123",
+      "id": 2
+    },
+    {
+      "name": "Rajesh",
+      "email": "ajnathahere@gmail.com",
+      "phoneno": "9483301997",
+      "age": "26",
+      "password": "yamahafzs",
+      "id": 3
+    },
+    {
+      "name": "xyz",
+      "email": "xyz@gmail.com",
+      "phoneno": "123456789",
+      "age": "25",
+      "password": "xyz@123",
+      "id": 4
+    }
+  ]
+}

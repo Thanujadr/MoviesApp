@@ -1,0 +1,175 @@
+{
+  "movies": [
+    {
+      "moviename": "RRR",
+      "hero": "NTR Ramcharan",
+      "heroine": "alia",
+      "director": "Rajmouli",
+      "languages": [
+        "Telugu"
+      ],
+      "genre": "history",
+      "poster": "https://assets-in.bmscdn.com/iedb/movies/images/extra/vertical_logo/mobile/thumbnail/xxlarge/rrr-et00094579-12-05-2022-02-26-04.jpg",
+      "trailer": "https://www.youtube.com/embed/GY4BgdUSpbE",
+      "release": "2020",
+      "rating": "8",
+      "synopsis": "RRR is a period drama set in India during the 1920s, revolving around the inspiring journey of two of India`s freedom fighters - Alluri Sitarama Raju and Komaram Bheem.",
+      "id": 3
+    },
+    {
+      "id": 5,
+      "moviename": "Love mocktail",
+      "hero": "Darling Krishna",
+      "heroine": "Milana Nagaraj , Amrutha",
+      "director": "Darling Krishna",
+      "languages": [
+        "kannada"
+      ],
+      "genre": "romance",
+      "poster": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/love-mocktail-et00124382-20-10-2020-09-58-18.jpg",
+      "trailer": "https://www.youtube.com/embed/IsEdANxZD3c",
+      "release": "2020",
+      "rating": "8",
+      "synopsis": "Love moctail is a romantic and fun film about the protagonist Adi`s quest for love. Life takes him through a roller coaster of a ride and he goes through varied experiences at several stages throughout his search for true love. Does Adi finally find his soul mate?"
+    },
+    {
+      "moviename": "KGF 2",
+      "hero": "Yash",
+      "heroine": "srinidhi shetty",
+      "director": "http://localhost:3000/moviedetails/7",
+      "languages": [
+        "Kannada",
+        "Hindi",
+        "Telugu"
+      ],
+      "genre": "Drama",
+      "poster": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/kgf-chapter-2-et00098647-08-04-2022-11-33-32.jpg",
+      "trailer": "https://www.youtube.com/embed/Qah9sSIXJqk",
+      "release": "2021",
+      "rating": "9.3",
+      "synopsis": "The blood-soaked land of Kolar Gold Fields (KGF) has a new overlord now - Rocky, whose name strikes fear in the heart of his foes. His allies look up to Rocky as their saviour, the government sees him as a threat to law and order; enemies are clamouring for revenge and conspiring for his downfall. Bloodier battles and darker days await as Rocky continues on his quest for unchallenged supremacy.\n\n",
+      "id": 7
+    },
+    {
+      "id": 9,
+      "moviename": "apthamitra",
+      "hero": "vishuvardhan",
+      "heroine": "soudariya",
+      "director": "p vasu",
+      "languages": [
+        "kannada"
+      ],
+      "genre": "horror",
+      "poster": "https://m.media-amazon.com/images/I/81duXR-7hOL._SL1420_.jpg",
+      "trailer": "https://www.youtube.com/embed/Gf-qmEbnL0I",
+      "release": "2004",
+      "rating": "10",
+      "synopsis": "stars Vishnuvardhan, Soundarya and Ramesh Arvind in the lead roles with Prema, Dwarakish and Avinash in supporting roles. The movie is a remake of the 1993 Malayalam film Manichithrathazhu.[4] The film was released on 27 August 2004 on Varalakshmi festival to positive reviews.[5]It ran for one-hundred days in theaters across Karnataka and was one of the highest-grossing films of the year.[6] Apthamitra was later followed by its sequel, Aptharakshaka (2010). P. Vasu also remade the film in Tamil in 2005 as Chandramukhi with Rajinikanth and Jyothika in the leads. Actress Soundarya is remembered for her performance in this film?"
+    },
+    {
+      "moviename": "Ponniyin Selvan 2",
+      "hero": "Karthi",
+      "heroine": "Trisha ",
+      "director": "Mani Ratnam",
+      "languages": [
+        "Kannada",
+        "Hindi",
+        "Telugu",
+        "Tamil",
+        "Malyalam"
+      ],
+      "genre": "History",
+      "poster": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/ponniyin-selvan--part-2-et00348725-1680776467.jpg",
+      "trailer": "https://www.youtube.com/embed/EnhS3matIoU",
+      "release": "2023",
+      "rating": "8.5",
+      "synopsis": "A plot to murder the king and the two princes of the Chola dynasty is underfoot. Can the Cholas survive the wrath of the Pandiya rebels, who are being led by the vengeful Nandhini?",
+      "id": 11
+    },
+    {
+      "moviename": "Raghavendra Stores",
+      "hero": "Jaggesh",
+      "heroine": "Shwetha srivatsav",
+      "director": "Santhosh Anandram",
+      "languages": [
+        "Kannada"
+      ],
+      "genre": "Comedy",
+      "poster": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/raghavendra-stores-et00330223-1671798405.jpg",
+      "trailer": "https://www.youtube.com/embed/BzMHYVQKO6g",
+      "release": "2023",
+      "rating": "8.8",
+      "synopsis": "Raghavendra Stores is a Kannada movie starring Jaggesh Gowda and Shwetha Srivatsav in prominent roles. It is a comedy directed Santhosh Anandram and produced by Vijay Kiraganduru forming part of the crew.",
+      "id": 12
+    },
+    {
+      "moviename": "Virupaksha",
+      "hero": "Sai Dharam Tej",
+      "heroine": "Samyukta menon",
+      "director": "Karthik Varma Dandu",
+      "languages": [
+        "Telugu",
+        "Tamil"
+      ],
+      "genre": "Mystery",
+      "poster": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/virupaksha-et00346626-1681729599.jpg",
+      "trailer": "https://www.youtube.com/embed/BC9s_Zof_Xk",
+      "release": "2023",
+      "rating": "9.3",
+      "synopsis": "Set in a village named Rudravanam in 1990`s and inspired by ancient Indian superstitions, Virupaksha tells the story of Surya who discovers some mystical paranormal activities occurring in the village. Can he save the village?",
+      "id": 13
+    },
+    {
+      "moviename": "America! America!!",
+      "hero": "Ramesh Aravind",
+      "heroine": "Hema",
+      "director": "Nagathihalli Chandrashekar",
+      "languages": [
+        "Kannada"
+      ],
+      "genre": "Romantic Drama",
+      "poster": "https://upload.wikimedia.org/wikipedia/en/f/f6/America_America_DVD_cover.jpg",
+      "trailer": "https://www.youtube.com/embed/LkA7cQwTBto",
+      "release": "1997",
+      "rating": "8.4",
+      "synopsis": "The lives of childhood friends Surya, Shashank and Bhoomi encounter turbulence after Shashank and Bhoomi marry and settle down in America and Surya, who secretly loves Bhoomi, goes to meet them.",
+      "id": 14
+    },
+    {
+      "moviename": "Ramabanam",
+      "hero": "Tottempudi Gopichand",
+      "heroine": "Dimple hayati",
+      "director": "Sriwass",
+      "languages": [
+        "Hindi",
+        "Telugu"
+      ],
+      "genre": "Action",
+      "poster": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/ramabanam-et00354851-1683110309.jpg",
+      "trailer": "https://www.youtube.com/embed/YmNdKWNbskI",
+      "release": "2023",
+      "rating": "9",
+      "synopsis": "Ramabanam features Tottempudi Gopichand, Dimple Hayathi and Jagapati Babu in prominent roles.",
+      "id": 15
+    },
+    {
+      "moviename": "Kerala",
+      "hero": "pranay pachauri",
+      "heroine": "adah sharma",
+      "director": "sudipto sen",
+      "languages": [
+        "Hindi",
+        "Telugu",
+        "Tamil",
+        "Malyalam"
+      ],
+      "genre": "Drama",
+      "poster": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/the-kerala-story-et00343918-1683025350.jpg",
+      "trailer": "https://www.youtube.com/embed/3Jk3vquJDGs",
+      "release": "2023",
+      "rating": "9",
+      "synopsis": "A spine-chilling, never told before true story - revealing a dangerous conspiracy that has been hatched against India. The Kerala Story is a compilation of the true stories of three young girls from different parts of Kerala.\n\nThe truth shall set us free! Thousands of innocent women have been systematically converted, radicalized & their lives destroyed. It`s their side of the story.",
+      "id": 16
+    }
+  ]
+}

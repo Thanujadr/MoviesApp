@@ -1,0 +1,479 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+ box-sizing: border-box;
+}
+
+/* ----------------------------------------------NAV STYLE---------------------------------------------------- */
+
+nav{
+  background: linear-gradient(90deg,purple,pink,purple );
+  color: white;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  position: sticky;
+  top: 0px;
+  z-index: 1000;
+}
+
+#logo h1{
+  /* font-family: ; */
+  letter-spacing: 4px;
+}
+
+#search-bar input{
+  width:300px;
+  height: 35px;
+  border: none;
+  padding-left: 20px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+#search-bar button{
+  height: 35px;
+  width: 80px;
+  border: none;
+  border-radius: 4px;
+  margin-left: -60px;
+  font-size: 15px;
+  
+}
+
+#add-movie a{
+  color: white;
+  font-size: 18px;
+  padding: 10px 10px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: 0.2s linear;
+}
+
+#add-movie a:hover{
+  background-color: white;
+  color: rgb(0, 0, 63);
+  font-size: 18px;
+  text-decoration: none;
+}
+
+#lnk{
+  color: white;
+  text-decoration-line: none;
+}
+
+#suggestion-box{
+  width: 320px;
+  position: absolute;
+  top: 53px;
+  left: 365px;
+  background-color: rgb(221, 218, 218);
+  color: black;
+padding: 5px 15px;
+border-radius: 6px;
+text-align: left;
+}
+
+#suggestion-box ul{
+  list-style: none;
+}
+
+#suggestion-box ul li:hover{
+  background-color: grey;
+
+}
+Link li{
+  text-decoration: none;
+}
+#hamberger{
+  display: none;
+}
+
+/* ----------------------------------------------HOME STYLE---------------------------------------------------- */
+
+.home{
+  background-color: rgb(253, 212, 253);
+
+}
+
+.movies{
+  width: 100vw;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  row-gap: 20px;
+  flex-wrap: wrap;
+  border-radius: 6px;
+}
+
+.movie{
+  border: solid 1px black;
+  height: auto;
+  width: 300px;
+  padding: 12px;
+  border-radius: 4px;
+  transition: 0.2s;
+  
+} 
+#detaillink{
+  text-decoration: none;
+  color: black;
+}
+#detaillink img{
+  border-radius: 6px;
+}
+
+.movie:hover{
+  transform: scale(1.05);
+  box-shadow: 0px 0px 8px purple;
+
+}
+
+
+/* ---------------------------Add Movie style------------------------------------------- */
+
+#formback{
+  height: auto;
+  width: auto;
+ background-color: pink;
+ 
+
+
+}
+#movieform{
+  height: auto;
+  padding: 20px 30px;
+  width: 600px;
+  background-color: rgb(248, 191, 248);
+  margin: 50px auto;
+  border-radius: 8px;
+}
+
+#movieform input{
+  height: 40px;
+  width: 100%;
+  border-radius: 8px;
+  padding: 0px 15px;
+  font-size: 15px;
+  border: rgb(119, 114, 114) solid 2px;
+  outline: none;
+}
+#movieform fieldset {
+
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 5px;
+  border-radius: 6px;
+}
+
+#movieform fieldset input
+{
+  height: 15px;
+  width: 15px;
+}
+#movieform fieldset label{
+position: relative;
+bottom: 4px;
+right:8px ;
+font-size: 15px;
+ 
+}
+
+#movieform textarea{
+border-radius: 6px;
+font-size: 15px;
+}
+/* ------------------------------movielist---------------------------- */
+#title{
+  color: white;
+  background: linear-gradient(90deg, pink,purple ,pink);
+
+  position: sticky;
+  top:70px ;
+  z-index: 100;
+}
+
+/* ----------------------------------------moviedetails------------------------ */
+
+#detail{
+  height:auto ;
+  width: 100%;
+  text-align: left;
+  background-color: rgb(248, 191, 248);
+  padding: 30px 80px;
+  display: flex;
+ justify-content: space-evenly;
+ line-height: 30px;
+}
+
+#trail{
+  height: auto;
+  width:850px;
+  margin-left: 20px;
+}
+
+#detail img{
+  height: 400px;
+  width: 350px;
+  text-align: center;
+}
+
+#trailer{
+  position: absolute;
+  right:10px;
+  top:95px;
+}
+
+#delete{
+  display: block;
+  height: 50px;
+  width: 200px;
+  color:white;
+  border: none;
+  background-color: red;
+font-weight: bold;
+font-size: 18px;
+  border-radius: 8px;
+  position: relative;
+  right: 828px;
+  top: 150px;
+}
+
+#update{
+  display: block;
+  height: 50px;
+  width: 200px;
+  color:white;
+  border: none;
+  background-color: red;
+font-weight: bold;
+font-size: 18px;
+  border-radius: 8px;
+  position: relative;
+  right: 828px;
+  top: 170px;
+  text-decoration: none;
+}
+
+#remove-btn{
+  color: red;
+  font-weight: bold;
+  font-size: 25px;
+  position: relative;
+ top: 370px;
+ left: 130px;
+ background: transparent;
+ border: none;
+ animation: filledheart 1s;
+}
+
+@keyframes filledheart {
+  0%{
+    transform: scale(0);
+  }
+  60%{
+    transform: scale(1.2) rotateY(0deg);
+  }
+  100%{
+    transform:  rotatey(180deg);
+  }
+}
+
+#add-btn{
+  color: red;
+  font-weight: bold;
+  font-size: 25px;
+  position: relative;
+ top: 370px;
+ left: 130px;
+ background: transparent;
+ border: none;
+ animation: emptyheart 0.8s;
+}
+@keyframes emptyheart {
+  0%{
+    transform: scale(1.2);
+  }
+  60%{
+    transform: scale(0);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+
+
+
+/* -----------------------------sign up------------------------------ */
+
+#signup{
+  border: solid 1px grey;
+  height: auto;
+  width: 400px;
+  margin: auto auto;
+  padding: 15px 15px;
+  background-color: pink;
+  border-radius: 8px;
+}
+#signup input{
+  height: 35px;
+  width: 100%;
+  padding: 15px;
+  border-radius: 8px;
+  border: none;
+  outline: 1px solid grey;
+}
+
+#sub{
+border: none;
+background-color:purple;
+color: white;
+font-weight: bold;
+font-size: 18px;
+border-radius: 8px;
+width: 100%;
+height: 35px;
+}
+
+
+/* -------------------------------login page-------------------------------- */
+
+#login{
+  border: solid 1px grey;
+  height: auto;
+  width: 400px;
+  margin: auto auto;
+  padding: 15px 15px;
+  background-color: pink;
+  border-radius: 8px;
+}
+
+#login input{
+  height: 35px;
+  width: 100%;
+  padding: 15px;
+  border-radius: 8px;
+  border: none;
+  outline: 1px solid grey;
+}
+
+#login button{
+  border: none;
+  background-color:purple;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 8px;
+  width: 100%;
+  height: 35px; 
+}
+/* --------------------------------------profile page------------------------------------------------ */
+
+#profile{
+  width: 100vw;
+  height: 100vh;
+  background-color: pink;
+}
+.btn{
+  height: 35px;
+  width: 50px;
+}
+
+
+.load{
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  border: solid 10px black;
+  animation: load 20s;
+  transition:  all  linear;
+  margin: auto;
+}
+@keyframes load{
+  0%{
+    border-top: transparent;
+    border-bottom: transparent;
+    transform: rotate(0deg);
+  }
+  
+  
+  50%{
+    border-left:transparent ;
+    border-right: transparent;
+    transform: rotate(3600deg);
+  }
+  100%{
+    border-top: transparent;
+    border-bottom: transparent;
+    transform: rotate(3600deg);
+  }
+}
+
+
+
+/* ------------------------responsive style -----tablet size--------------- */
+ @media (max-width:900px) {
+  
+  nav{
+    padding: 20px 60px;
+  }
+  
+  #logo h1{
+    letter-spacing: 3px;
+    font-size: 25px;
+  }
+  
+  #search-bar input{
+    width:250px;
+    height: 35px;
+    font-size: 13px;
+  }
+  #search-bar{
+    width: 350px;
+  }
+  #search-bar button{
+    width: 60px;
+    margin-left: -50px;
+    font-size: 13px;
+  }
+  
+  #add-movie ,#fav-movie{
+    display: none;
+  }
+  
+  
+  #lnk{
+    color: white;
+    text-decoration-line: none;
+  }
+  
+  #suggestion-box{
+    width: 320px;
+    position: absolute;
+    top: 53px;
+    left: 365px;
+    background-color: rgb(221, 218, 218);
+    color: black;
+  padding: 5px 15px;
+  border-radius: 6px;
+  text-align: left;
+  }
+  
+  #suggestion-box ul{
+    list-style: none;
+  }
+  
+  #suggestion-box ul li:hover{
+    background-color: grey;
+  
+  }
+  Link li{
+    text-decoration: none;
+  }
+} 
